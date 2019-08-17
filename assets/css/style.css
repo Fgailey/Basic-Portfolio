@@ -1,14 +1,27 @@
 header {   
     width: 100%;
+    background-color:#ffffff;
+
 }
 
-.namenav {
-    width: 960px;
+header {
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-bottom-color: #cccccc;
+}
+
+div.namenav {
+    width: 960px
 }
 
 .foster {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 15px;
+    width: 200px;
+    height: 75px;
+    padding: 5px;
 }
 
 .nav {
@@ -25,15 +38,21 @@ div.main {
     width: 960px;
     padding: 20px;
     margin: auto;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    background-color: #ffffff;
 }
-
-
-
-
 
 .profile1 {
 width: 100px;
 float:left;
 
 
+}
+
+.footer {
+    text-align: center;
+    background-color: #666666;
+    padding: 20px;
 }
