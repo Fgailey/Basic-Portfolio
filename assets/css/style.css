@@ -1,17 +1,22 @@
-header {   
-    width: 100%;
-    background-color:#ffffff;
-
-}
-
 header {
-    border-style: solid;
-    border-width: 0px 0px 2px 0px;
-    border-bottom-color: #cccccc;
+    background-color:#ffffff;
+    width: 960px;
+    margin: auto;
 }
 
+body {
+    
+    background: url(/assets/images/background.png);
+    background-size: 100%;
+}
 div.namenav {
     width: 960px
+}
+#background {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #cccccc;
+
 }
 
 .foster {
@@ -22,10 +27,11 @@ div.namenav {
     width: 200px;
     height: 75px;
     padding: 5px;
+    position: fixed;
+    left: 0px;
 }
 
 .nav {
-    float:right;
     list-style-type: none;
     margin: 0; 
     padding: 0;
@@ -33,18 +39,20 @@ div.namenav {
 
 
 
-div.main {
+#main {
     float: center;
     width: 960px;
     padding: 20px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
     border-style:solid;
     border-width: 1px;
     border-color: #cccccc;
     background-color: #ffffff;
 }
 
-.profile1 {
+#profile1 {
 width: 100px;
 float:left;
 
