@@ -1,9 +1,10 @@
-<!doctype html>
-<!--I am probably going overboard with the Div's but it is comforting-->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Basic Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -11,35 +12,38 @@
 </head>
 <body>
     <header>
-        <div class="namenav">
+        <div id="namenav">
             <div class="foster">
-                <h1>Foster Gailey</h1>
+                <h2>Foster Gailey</h2>
             </div>
-            <div class="nav">
-                    <a href="index.html" class="nav-button">About</a>
-                    <a href="portfolio.html" class="nav-button">Portfolio</a>
-                    <a href="contact.html" class="nav-button">Contact</a>
-            </div>
-        </div>
+            <nav>
+                <ul class="nav">
+                        <li><a href="index.html" class="nav-button">About</a></li>
+                        <li><a href="portfolio.html" class="nav-button">Portfolio</a></li>
+                        <li><a href="contact.html" class="nav-button">Contact</a></li>
+                </ul>
+            </nav>    
+        </div>    
     </header>
     <!--This div will be used for the background located between the nav header and footer-->
     <div id="background">
         <!--This div is the floating section with the Contact and Input fields are-->
-        <div class="main">
+        <div id="main">
             <div>
                 <h2>Contact</h2>
             </div>
             <!--Name input section goes here-->
             <form>
-                <lable>Name</lable>
-                <input type="text" name="John Smith">
+                <lable>Name</lable><br>
+                <input type="text" name="Full Name" value="John Smith"><br>
                 <!--Email input goes here-->
-                
+                <lable>Email</lable><br>
+                <input type="text" name="Email" value="example@gmail.com"><br>
                 <!--Message field goes here-->
-                
-
+                <lable>Message</lable><br>
+                <textarea name="Message" rows="10" cols="120"></textarea><br>
                 <!--Submit button goes here-->
-                
+                <input type="submit" value="Submit">
             </form>
         </div>
     </div>

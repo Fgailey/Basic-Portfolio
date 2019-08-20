@@ -1,17 +1,29 @@
-header {   
-    width: 100%;
-    background-color:#ffffff;
-
-}
-
 header {
-    border-style: solid;
-    border-width: 0px 0px 2px 0px;
-    border-bottom-color: #cccccc;
+    background-color:#ffffff;
+    margin: auto;
+    margin-bottom:20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:80px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color:#cccccc;
 }
 
-div.namenav {
-    width: 960px
+#namenav {
+    width:960px;
+    margin:auto;
+}
+body {
+    background: url(/assets/images/background.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .foster {
@@ -20,39 +32,61 @@ div.namenav {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     width: 200px;
-    height: 75px;
-    padding: 5px;
+    height:80px;
+    float:left;
 }
 
-.nav {
-    float:right;
+nav {
+    float: right;
+    width: 25%;
+}
+
+.nav li{
     list-style-type: none;
+    display: inline-block;
     margin: 0; 
-    padding: 0;
+    padding: 0px 3px;
+}
+#middle-nav {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
 }
 
-
-
-div.main {
+#main {
     float: center;
-    width: 960px;
+    width: 918px;
     padding: 20px;
     margin: auto;
+    margin-top: 150px;
+    margin-bottom: 15px;
     border-style:solid;
     border-width: 1px;
     border-color: #cccccc;
     background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main h1{
+    color: #4aaaa5;
 }
 
-.profile1 {
-width: 100px;
-float:left;
-
+#profile1 {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
 
 }
 
 .footer {
     text-align: center;
     background-color: #666666;
-    padding: 20px;
+    padding: 19px 0 0 0;
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
 }
