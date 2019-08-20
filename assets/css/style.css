@@ -26,6 +26,13 @@ h1, h2, h3, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#about-me {
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .foster {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -39,14 +46,22 @@ h1, h2, h3, h4 {
 nav {
     float: right;
     width: 25%;
+    padding-top: 20px;
 }
 
 .nav li{
     list-style-type: none;
     display: inline-block;
     margin: 0; 
-    padding: 0px 3px;
+    padding: 0px 6px;
+    color: #cccccc;
 }
+
+a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
 #middle-nav {
     border-width: 0px 1px 0px 1px;
     border-style: solid;
@@ -72,7 +87,12 @@ nav {
 #profile1 {
     width: 100px;
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
+
+}
+
+.port-photos img {
+    width: 200px;
 
 }
 
@@ -84,7 +104,7 @@ nav {
     border-top-style: solid;
     border-top-color: #4aaaa5;
     color: #ffffff;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
