@@ -1,20 +1,25 @@
 header {
     background-color:#ffffff;
     margin: auto;
-    width: 960px;
+    margin-bottom:20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:80px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color:#cccccc;
 }
 
 #namenav {
-    content: " ";
-    display: block;
-    clear: both;
+    width:960px;
+    margin:auto;
 }
-#background {
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #cccccc;
+body {
     background: url(/assets/images/background.png);
-    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4 {
@@ -27,13 +32,13 @@ h1, h2, h3, h4 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     width: 200px;
-    padding: 5px;
-    clear: right;
+    height:80px;
+    float:left;
 }
 
 nav {
-    clear: left;
     float: right;
+    width: 25%;
 }
 
 .nav li{
@@ -48,7 +53,7 @@ nav {
     width: 960px;
     padding: 20px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 150px;
     margin-bottom: 15px;
     border-style:solid;
     border-width: 1px;
@@ -61,9 +66,9 @@ nav {
 }
 
 #profile1 {
-width: 100px;
-float: left;
-margin-right: 10px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
 
 }
 
@@ -75,7 +80,7 @@ margin-right: 10px;
     border-top-style: solid;
     border-top-color: #4aaaa5;
     color: #ffffff;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
