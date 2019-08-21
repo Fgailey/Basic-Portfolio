@@ -3,7 +3,7 @@ header {
     margin: auto;
     margin-bottom:20px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height:80px;
@@ -54,12 +54,16 @@ nav {
     display: inline-block;
     margin: 0; 
     padding: 0px 6px;
-    color: #cccccc;
+    color: #777777;
 }
 
 a {
     text-decoration: none;
-    color: #cccccc;
+    color: #777777;
+}
+
+.desc p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #middle-nav {
@@ -73,12 +77,15 @@ a {
     padding: 20px;
     margin: auto;
     margin-top: 150px;
-    margin-bottom: 15px;
+    margin-bottom: 115px;
     border-style:solid;
     border-width: 1px;
     border-color: #cccccc;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+}
+#main p {
+    color: #777777;
 }
 #main h1{
     color: #4aaaa5;
@@ -91,9 +98,11 @@ a {
 
 }
 
-.port-photos img {
+#port img {
     width: 200px;
 }
+
+
 
 .footer {
     text-align: center;
