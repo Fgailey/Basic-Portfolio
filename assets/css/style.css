@@ -19,9 +19,7 @@ header {
     height: 80px;
 }
 body {
-    background: url(/assets/images/background.png);
-    background-repeat: repeat;
-    background-attachment: fixed;
+    background-image: url(../images/background.png);
 }
 
 h1, h2, h3, h4 {
@@ -89,7 +87,7 @@ a {
     margin-bottom: 115px;
     border-style:solid;
     border-width: 1px;
-    border-color: #cccccc;
+    border-color: #dddddd;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
@@ -115,14 +113,13 @@ a {
     float:left;
     width: 280px;
     margin: 25px;
-    overflow: auto;
     height: 186px;
     z-index: 0;
 }
 
 .port-photos img {
     width:100%;
-    height: 98%;
+    height: 100%;
 }
 
 
@@ -144,8 +141,11 @@ a {
 /* contact page specific */
 
 #contact {
-    padding: 20px;
+    padding: 0 20px;
     color: #777777;
+}
+#contact p {
+    margin: 0;
 }
 #contact input {
     color: #777777;
@@ -165,5 +165,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 5%;
+    height: 30px;
+}
+
+#copyright {
+    font-size: 10px;
 }
